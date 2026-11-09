@@ -1,0 +1,35 @@
+
+/* MAIN APPLICATION BACKGROUND */
+
+.root {
+    -fx-background-image: url("placeprep-background.jpeg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 100% 100%;
+}
+
+/* Make tab backgrounds transparent */
+
+.tab-pane {
+    -fx-background-color: transparent;
+}
+
+.tab-pane .tab-content-area {
+    -fx-background-color: transparent;
+}
+
+/* Registration panels */
+
+.panel {
+    -fx-background-color: rgba(255, 255, 255, 0.88);
+    -fx-background-radius: 12px;
+}
+.tab-pane,
+.tab-pane .tab-content-area {
+    -fx-background-color: transparent;
+}
+
+.panel {
+    -fx-background-color: rgba(255, 255, 255, 0.85);
+    -fx-background-radius: 12px;
+}
